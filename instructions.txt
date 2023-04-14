@@ -1,0 +1,15 @@
+1. How to Make a NEW DJANGO PROJECT 
+
+django-admin startproject projectname
+
+
+2. How to Open the Project. 
+
+python manage.py runserver
+
+
+3. Starting an App 
+
+python manage.py startapp <<appname>>
+
+p
