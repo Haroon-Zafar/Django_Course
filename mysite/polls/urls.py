@@ -5,3 +5,9 @@ from django.urls import path
 
 from . import views
 
+
+urlpatterns = [
+    # Syntax of path function: path('URL', view function, name = "name of the URL")
+    path('', views.index, name = "index")
+]
+
